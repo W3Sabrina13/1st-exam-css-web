@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: bisque;
+}
+
+/* header design :start */
+.header{
+    background-color: aqua;
+    color: blue;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.header:hover{
+    box-shadow: 1em 1em 5em rgb(25, 23, 23);
+}
+
+
+.header-component{
+    width: 100px;
+    margin: auto;
+    padding: 10px 0 10px 0;
+    display: flex;
+    justify-content: space-evenly;
+    /* font-size: 18px;
+    color: blueviolet; */
+}
+.header-component h1{
+    margin-top: 20px;
+    /* margin-left: 10px; */
+    display: flex;
+    justify-content: space-between;
+}
+.header-component h1 p{
+    margin-top: auto;
+    padding: 20px 0 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-item ul{
+    list-style: none;
+    display: flex;
+    /* margin-left: 5px; */
+}
+.nav-item ul li{
+    margin-right: 10px;
+    margin-left: 5px;
+    margin-top: 26px;
+    display: flex;
+    justify-content: space-between;
+    /* margin: auto; */
+}
+.nav-item ul li a{
+   text-decoration: none; 
+   color: blue
+   
+}
+.header-component div img{
+    height: 220px;
+    width: 250px;
+    /* margin-top: 20px; */
+    /* margin-right: 30px;
+    margin-bottom: 100px; */
+}
+.img{
+    display: flex;
+    /* justify-content: right;
+    margin-top: 70px;
+    margin-bottom: 0; */
+}
+/* .img h3 p a{
+    display: grid;
+    justify-content: space-between;
+} */
+/* header design :end */
+
+
+/* main section start */
+
+.main-body{
+    background-color: antiquewhite;
+}
+.top-teacher-and-top-courses{
+    /* width: 900px;
+    height: 700px; */
+    margin: auto;
+    padding: 20px;
+    background-color: sandybrown;
+    border-radius: 7px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.course-title{
+    color: blue;
+}
+.courses{
+    /* width: 1000px; */
+    display: grid;
+    grid-template-columns: repeat(3, 4fr);
+    /* grid-gap: 27px; */
+    grid-gap: 30px;
+    margin-top: 50px;
+    /* margin-right: 10px;
+    margin-left: 10px; */
+}
+.course{
+    display: flex;
+    align-items: center;
+}
+.course img{
+    width: 150px;
+    height: 120px;
+    border-radius: 6%;
+    padding: 20px;
+}
+.course h3{
+   margin-top: 10px;
+}
+.course p{
+    margin-left: 5px;
+    font-weight: bold; 
+}
+.course a{
+    text-decoration: none;
+    color: red;
+}
+.my-form{
+    padding: 20px;
+}
+.my-form .form-group{
+    padding-bottom: 18px;
+}
+.my-form input[type="text"]
+.my-form textarea {
+padding: 8px;
+width: 100%;
+}
+
+.contracts-img img{
+width: 150px;
+height: 120px;
+}
